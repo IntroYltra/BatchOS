@@ -6,8 +6,8 @@ color 0a
 set version=0.2.1
 set build=55
 =======
-set version=0.2.3
-set build=59
+set version=0.2.5
+set build=60
 title BATCH OS build %build% ver %version%
 set mypath=%cd%
 
@@ -47,6 +47,7 @@ ping -n 2 0.0.0.0 >nul
 cls
 echo Loading data...
 ping -n 2 0.0.0.0 >nul
+start sound.vbs
 pause
 
 if exist val.ini (
